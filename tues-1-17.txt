@@ -1,0 +1,1 @@
+gedit opens a text file, should save in class assignemnts, or can make the doc directly in the diretory, could type the name of the file 
