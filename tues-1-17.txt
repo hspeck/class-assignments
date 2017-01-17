@@ -1,1 +1,15 @@
 gedit opens a text file, should save in class assignemnts, or can make the doc directly in the diretory, could type the name of the file 
+
+
+Challenge 1
+made three separate files named "badly" "named" "file.txt" with touch
+and all three were moved to home directory separately, and only one had the .txt suffix
+
+badly
+badly named file.txt
+file.txt
+named
+README.txt
+temp.txt
+thurs-1-12-2017
+tues-1-17.txt
