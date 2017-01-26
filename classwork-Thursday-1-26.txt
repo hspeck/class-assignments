@@ -1,0 +1,70 @@
+ 1146  ls
+ 1147  touch classwork-Thursday-1-26.txt
+ 1148  git add classwork-Thursday-1-26.txt 
+ 1149  git commit -m "adding notes for 1-26"
+ 1150  git push
+ 1151  ls
+ 1152  cd ../CSB/unix/sandbox/
+ 1153  ls
+ 1154  touch permissions.txt
+ 1155  ls -l
+ 1156  chmod u=xrw
+ 1157  chmod u=xrw permissions.txt 
+ 1158  ls -l
+ 1159  chmod u -x permissions.txt 
+ 1160  chmod u-x permissions.txt 
+ 1161  ls -l
+ 1162  cd -
+ 1163  touch permissions.txt
+ 1164  gedit dir.sh
+ 1165  gedit dir.sh 
+ 1166  ls /bin
+ 1167  $PATH
+ 1168  cd
+ 1169  mkdir scripts
+ 1170  ls
+ 1171  cd scripts/
+ 1172  ls
+ 1173  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+ 1174  ls
+ 1175  ls ~/Desktop/eeb-177/class-assignments/
+ 1176  gedit .bash_profile
+ 1177  ls -a
+ 1178  ls
+ 1179  ls -l
+ 1180  cd scripts/
+ 1181  chmod u=xrw dir.sh 
+ 1182  ls -l
+ 1183  cd ../Desktop/
+ 1184  cd ~
+ 1185  ls
+ 1186  ls -a
+ 1187  gedit .profile
+ 1188  sudo reboot
+ 1189  $PATH
+ 1190  cd Desktop/
+ 1191  dir.sh
+ 1192  cd 
+ 1193  ls
+ 1194  cd scripts/
+ 1195  ls
+ 1196  gedit dir.sh 
+ 1197  cd 
+ 1198  cd Desktop/
+ 1199  dir.sh 
+ 1200  cd 
+ 1201  cd scripts/
+ 1202  gedit inclass-script.sh
+ 1203  chmod u=xrw inclass-script.sh 
+ 1204  ls -l
+ 1205  inclass-script.sh 
+ 1206  cd ../Desktop/eeb-177/class-assignments
+ 1207  inclass-script.sh 
+ 1208  cd ../lab-work/
+ 1209  inclass-script.sh 
+ 1210  cd ../class-assignments
+ 1211  ipython
+ 1212  history
+ 1213  history 76
+ 1214  history -n 76
+ 1215  history 70 >> classwork-Thursday-1-26.txt 
