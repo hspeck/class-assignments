@@ -1,0 +1,35 @@
+---
+title: "classwork-3-6-17.Rmd"
+output: html_document
+---
+
+```{r}
+library(paleotree)
+library(paleobioDB)
+```
+```{r}
+data(graptPBDB)
+head(graptOccPBDB)
+```
+
+
+```{r}
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank = "species")
+plotOccData(occSpecies,groupLabel = "Species")
+```
+```{r}
+graptTimeSpecies <- occData2timeList(occList = occSpecies)
+taxicDivDisc(graptTimeSpecies)
+```
+```{r}
+#then chart for different taxonimic levels
+#and send to pdf with pdf(file = "blah")
+
+#for ggplot you can use ggsave to put output in pdf
+```
+
+
+```{r}
+
+```
+
